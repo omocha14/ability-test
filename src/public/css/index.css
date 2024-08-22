@@ -1,0 +1,107 @@
+/* ヘッダーのスタイル */
+.header {
+    background: #ffffff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #8b7969;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* フォームコンテナ */
+.contact-form__content {
+    color: #8b7969;
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1000px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* フォームのスタイル */
+.form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+}
+
+/* フォームグループ */
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: #ff0000;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+}
+
+/* 入力フィールド */
+.form__input--text input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+}
+
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+}
+
+/* ボタン */
+.form__button {
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px 20px;
+    width: auto;
+    border: none;
+    border-radius: 3px;
+    background: #8b7969;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form__button-submit:hover {
+    background: #736a5d;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .header__inner {
+        padding: 20px 10px;
+    }
+
+    .form {
+        width: 100%;
+    }
+}

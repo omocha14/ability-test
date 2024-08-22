@@ -1,0 +1,63 @@
+/* thanks.css */
+
+/* Header styling */
+.header {
+    background: #000;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Main content styling */
+.thanks__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    text-align: center;
+    position: relative;
+}
+
+.thanks__heading {
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Watermark styling */
+.watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Button styling */
+.form__button-submit {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8B7969;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+.form__button-submit:hover {
+    background-color: #7a6e5f;
+}
